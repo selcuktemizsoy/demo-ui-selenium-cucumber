@@ -1,7 +1,7 @@
 name: Selenium test CI pipeline
 on:
   push:
-    branch: [master]
+    branches: [master]
   jobs:
     build-and-deploy:
       runs-on: ubuntu-latest
