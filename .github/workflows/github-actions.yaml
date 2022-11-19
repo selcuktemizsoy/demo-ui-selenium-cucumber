@@ -16,4 +16,4 @@ jobs:
           context: .
           file: .docker/Dockerfile
           push: true
-          tags: frontend
+          tags: selcuktemizsoy/selenium-demo:latest
