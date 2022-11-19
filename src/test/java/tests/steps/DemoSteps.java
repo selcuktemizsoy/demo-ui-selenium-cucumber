@@ -18,6 +18,6 @@ public class DemoSteps {
         // just printing title
         System.out.println("our title is=>" + text);
         // verify title
-        Assert.assertEquals("Edit src/App.js and save to reload.", text, "title is not correct actual title => " + text);
+        Assert.assertEquals("title is not correct actual title => " + text, "Edit src/App.js and save to reload.", text);
     }
 }
