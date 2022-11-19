@@ -4,4 +4,4 @@ WORKDIR /tests
 COPY ../pom.xml .
 RUN mvn install
 COPY .. .
-ENTRYPOINT [ "sleep", "infinity" ]
+ENTRYPOINT [ "tail", "-f", "/dev/null" ]
