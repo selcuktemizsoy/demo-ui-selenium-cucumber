@@ -20,11 +20,11 @@ Test application repo can be found [here](https://github.com/selcuktemizsoy/demo
 
 * Run test 
 
-First adjust .env file based on your needs.
+First adjust .env.local file based on your needs. Or use any other .env file
 
 Run this command 
 
-`env $(cat .env) mvn test`
+`env $(cat .env.local) mvn test`
 
 ### TODO
 * Thread driver/additional driver
